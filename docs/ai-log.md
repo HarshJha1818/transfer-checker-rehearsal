@@ -11,3 +11,4 @@ Format per entry: Sprint / What I asked / What AI generated / What I changed and
 - Claude: drafted the PRD (problem statement, persona, user stories, scope, risks, test data)
   and decisions D3–D4. Changed: added a practice note and personal persona; built the PRD
   section by section and fixed Markdown formatting (dashes, spacing) myself.
+  - Claude: drafted business requirements BR1–BR6 and success measures. Changed: placed them in the PRD after the problem statement.

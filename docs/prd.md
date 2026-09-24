@@ -11,7 +11,19 @@ estimated 43% of their credits on average (22% for public 2-year to public 4-yea
 Florida's Statewide Course Numbering System (SCNS) guarantees transfer for equivalent courses,
 but students still have to match their transcript against their target major's requirements
 by hand. Transfer Credit Gap Checker does that matching and explains every result.
-   
+
+   ## Business requirements
+- **BR1:** Students can see which of their completed courses count toward their target major.
+- **BR2:** Students can see which required courses they still need to take.
+- **BR3:** Every result is explained and traceable to the student's own documents.
+- **BR4:** Students can see how many credits apply and how many remain.
+- **BR5:** The tool protects privacy (stores nothing) and reminds students to confirm with an advisor.
+- **BR6:** The first version covers Florida public college to Florida public university transfers.
+
+**Success measures**
+- Correct results on all three test transcripts.
+- Results appear within 30 seconds of uploading.
+- A student can understand the results without anyone explaining them.
 
    ## Persona
  Harsh, 19, earning an AA at Valencia College and planning to transfer to a Florida state
