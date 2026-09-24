@@ -14,8 +14,12 @@ Transfer students lose credits and time because matching a transcript against a 
 4. Results appear in three groups: Transfers, Still needed, Check with an advisor, each with the rule that was applied.
 
 ## How to run it
-(TBD: filled in once the walking skeleton works.)
-
+```
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+streamlit run app.py
+```
 ## Tech stack and frameworks
 - Python 3.12
 - Streamlit (web interface)
@@ -27,6 +31,7 @@ Transfer students lose credits and time because matching a transcript against a 
 - [Decision log](docs/decisions.md): key choices and why
 - [Test plan](docs/test-plan.md): expected versus actual results
 - [AI usage log](docs/ai-log.md): every use of AI, and what I changed
+- [Design](docs/design.md): screen, data, AI call, and logic
 
 ## AI usage
 - **AI used to build the app:** Claude helped draft the documents and will help draft code; I review, edit and test everything. Full record in the [AI usage log](docs/ai-log.md).

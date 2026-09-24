@@ -16,3 +16,7 @@
    ## D4: Course matching in code, not AI
  - Why: The SCNS rule is exact and testable; AI only extracts course codes.
  - Rejected: Asking the AI to decide equivalence.
+ 
+   ## D5: Streamlit for the web page
+  - Why: One Python file, file upload built in, free hosting; no HTML or JavaScript to learn.
+  - Rejected: Flask or React (more code, more to learn in 36 hours).

@@ -15,4 +15,6 @@ Expected results are written before the code. Actual and Pass? are filled in dur
 | T10 | US4 | Auto | Rule shown for each match | ENC 1101 vs ENC 2101 | "same prefix + last 3 digits" shown | | |
 | T11 | US4 | Auto | AI returns a code not in the text | code XYZ 9999 | Marked "Unverified" | | |
 | T12 | US5 | Auto | Credit totals | transcript_A + requirements list | Matches hand-calculated totals | | |
-| T13 | US6 | Manual | Advisor reminder visible | any results page | Reminder text shown | | |
+| T13 | US6 | Manual | Advisor reminder visible | any results page | Reminder text shown | Reminder shown | ✅ |
+| T14 | US2 | Auto | AI returns invalid JSON | broken AI reply (simulated) | "Couldn't read courses. Try again." | | |
+| T15 | — | Manual | API key missing | no .env file | "API key missing. Check your .env file." | | |
