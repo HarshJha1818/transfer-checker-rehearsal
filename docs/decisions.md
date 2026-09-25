@@ -20,3 +20,7 @@
    ## D5: Streamlit for the web page
   - Why: One Python file, file upload built in, free hosting; no HTML or JavaScript to learn.
   - Rejected: Flask or React (more code, more to learn in 36 hours).
+
+  ## D6: Deploy early to Streamlit Community Cloud
+- Why: Proves code → GitHub → live works at the start; every sync redeploys automatically.
+- Rejected: Deploying only at the end (risk of surprises at hour 30).

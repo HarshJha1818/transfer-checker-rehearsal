@@ -20,6 +20,8 @@ python -m venv .venv
 pip install -r requirements.txt
 streamlit run app.py
 ```
+**Live app:** <https://transfercheckerapp.streamlit.app/>
+
 ## Tech stack and frameworks
 - Python 3.12
 - Streamlit (web interface)

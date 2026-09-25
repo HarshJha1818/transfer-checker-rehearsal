@@ -21,3 +21,7 @@ Format per entry: Sprint / What I asked / What AI generated / What I changed and
 
 ## Build
 - Claude: drafted app.py skeleton, requirements.txt and setup commands. Changed: moved app.py out of docs, pinned Streamlit version, ran and verified the page myself.
+
+## Build
+- Claude: drafted app.py skeleton, requirements.txt, setup and deployment steps. Changed: moved app.py out of docs, pinned Streamlit version, chose app URL and Python 3.12, verified local and live pages myself.
+- Lesson: tested with my real transcript by mistake; switching to fake test data from now on (privacy).

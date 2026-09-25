@@ -18,3 +18,5 @@ Expected results are written before the code. Actual and Pass? are filled in dur
 | T13 | US6 | Manual | Advisor reminder visible | any results page | Reminder text shown | Reminder shown | ✅ |
 | T14 | US2 | Auto | AI returns invalid JSON | broken AI reply (simulated) | "Couldn't read courses. Try again." | | |
 | T15 | — | Manual | API key missing | no .env file | "API key missing. Check your .env file." | | |
+
+Note: Real requirement lists contain headings, duplicated course codes on one line, credits on separate lines, and lab suffixes (e.g. COP 3223C). Test data C must include all four.
